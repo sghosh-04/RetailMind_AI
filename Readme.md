@@ -3,13 +3,13 @@
 ### AWS-Native AI Retail SaaS for Indian SMEs
 
 🚀 **Live Application:** https://retail-mind-ai.vercel.app/login
-☁️ **Cloud-Native | Multi-Tenant | GenAI-Powered | Production-Ready**
+☁️ **Cloud-Native | Multi-Tenant | GenAI-Powered | Production Ready**
 
-RetailMind AI is a fully deployable, AWS-native multi-tenant SaaS platform designed for Indian SMEs.
+RetailMind AI is a fully deployable, AWS-native multi tenant SaaS platform designed for Indian SMEs.
 
-It combines POS billing, GST-compliant onboarding, inventory intelligence, demand forecasting, competitor pricing analysis, and an AI Retail Copilot powered by Amazon Bedrock.
+It combines POS billing, GST compliant onboarding, inventory intelligence, demand forecasting, competitor pricing analysis, and an AI Retail Copilot powered by Amazon Bedrock.
 
-This system contains **no dummy data or hardcoded logic** — all workflows operate end-to-end using real infrastructure and secure authentication.
+This system contains **no dummy data or hardcoded logic**  all workflows operate end-to-end using real infrastructure and secure authentication.
 
 ---
 
@@ -19,7 +19,7 @@ This system contains **no dummy data or hardcoded logic** — all workflows oper
 
 * Mandatory GSTIN validation
 * Unique tenant creation per business
-* Multi-tenant isolation at database level
+* Multi tenant isolation at database level
 
 ### 🧾 POS Billing System
 
@@ -30,15 +30,15 @@ This system contains **no dummy data or hardcoded logic** — all workflows oper
 
 ### 📦 Inventory Management
 
-* Real-time stock tracking
+* Real time stock tracking
 * Reorder point alerts
 * Inventory turnover metrics
 
 ### 📊 Demand Forecasting
 
 * Amazon SageMaker endpoint
-* XGBoost / Prophet models
-* 30-day forward demand predictions
+* XGBoost or Prophet models
+* 30 day forward demand predictions
 * Forecast accuracy monitoring
 
 ### 🤖 AI Retail Copilot (Amazon Bedrock)
@@ -71,7 +71,7 @@ Risk classification and AI-generated improvement suggestions.
 * Stored in DynamoDB
 * Margin comparison engine
 * Market competitiveness scoring
-* AI-recommended optimal selling price
+* AI recommended optimal selling price
 
 ---
 
@@ -100,7 +100,7 @@ Risk classification and AI-generated improvement suggestions.
 Responsibilities:
 
 * JWT Authentication
-* GST-based onboarding
+* GST based onboarding
 * Stripe subscription validation
 * POS billing APIs
 * Forecasting integration
@@ -235,7 +235,7 @@ All webhooks are verified using Stripe signature validation.
 # 🔐 Security Architecture
 
 * JWT Authentication
-* Tenant-based data isolation
+* Tenant based data isolation
 * GST validation during onboarding
 * API Gateway rate limiting
 * AWS WAF protection
@@ -263,7 +263,7 @@ All webhooks are verified using Stripe signature validation.
 5. POS invoices generated
 6. Sales stored in RDS
 7. Data exported to S3
-8. SageMaker trains / predicts
+8. SageMaker trains or predicts
 9. Forecast returned
 10. Bedrock explains insights
 11. Business health score computed
