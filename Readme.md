@@ -2,7 +2,7 @@
 
 ### AWS-Native AI Retail SaaS for Indian SMEs
 
-🚀 **Live Application:** [https://your-deployment-link](retail-mind-ai.vercel.app)
+🚀 **Live Application:** https://retail-mind-ai.vercel.app/login
 ☁️ **Cloud-Native | Multi-Tenant | GenAI-Powered | Production-Ready**
 
 RetailMind AI is a fully deployable, AWS-native multi-tenant SaaS platform designed for Indian SMEs.
